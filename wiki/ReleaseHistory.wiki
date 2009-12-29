@@ -1,4 +1,4 @@
-#updated with install links and notes for each release
+# updated with install links and notes for each release
 
 = Release History =
 
