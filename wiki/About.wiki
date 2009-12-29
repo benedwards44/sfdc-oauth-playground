@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary About this project
 
 = About this project =
 
@@ -10,14 +10,16 @@ The project also comes with functionality for authorizing access, including auth
 
 Finally, the project includes an API Tester that you can use to make API requests to services that have been authorized for access.
 
-OAuth.cls
+== Apex Classes ==
+
+=== OAuth.cls ===
 
 The OAuth class is the meat of the project. It relies on the OAuth_Service__c and OAuth_Token__c for storage and retrieval of tokens and service configuration, but it can easily be rewritten as a stand-alone class that can be used for a more specific application.
 
-AuthController.cls
+=== AuthController.cls ===
 
 Visual Force Controller for authorization flow
 
-TestController.cls
+=== TestController.cls ===
 
 VF Controller for the API Test page. This page includes a feature that allows you to save URLs (API endpoints), including post data for later use.
